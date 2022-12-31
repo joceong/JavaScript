@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    text-align: center;
+    color: #130e0f;
+}
+
+h1 {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.imgs-div {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    text-align: center;
+    width: 400px;
+}
+
+.team-img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}

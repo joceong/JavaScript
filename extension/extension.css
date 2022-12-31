@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+}
+
+#input-el {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box; /*to stay within the allocated space, not taking up the padding or margin space*/
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+#input-btn, #tab-btn {
+    color: white;
+    background-color: #5f9341;
+}
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none; /*remove the bullet point*/
+    padding-left: 0;
+}
+
+li a { /*<a> nested in <li>*/
+    margin-top: 5px;
+}
+
+a {
+    color: #5f9341;
+}

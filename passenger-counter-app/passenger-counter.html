@@ -1,0 +1,18 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="passenger-counter.css">
+    </head>
+    <body>
+        <image class="background-img" src="https://static.vecteezy.com/system/resources/previews/006/097/248/original/railway-station-with-train-transport-scenery-platform-for-departure-and-underground-interior-subway-in-flat-background-poster-illustration-vector.jpg">
+        <h1 style="text-align: center;">People Entered:</h1>
+        <h2 style="text-align: center;" id="count-el">0</h2>
+        <div style="display: flex; justify-content: center; align-items: center; height: 38.4px;">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; height: 38.4px;">
+            <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+        <p id="save-el" style="text-align: center; transform: translateY(500%)">Previous Entries: </p>
+        <script src="passenger-counter.js"></script>
+    </body>
+</html>
